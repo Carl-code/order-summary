@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+:root {
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue:hsl(245, 75%, 52%);
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+body {
+  background-color: var(--Paleblue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 400px;
+  max-height: 625px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hero {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.text-information {
+  background-color: var(--Verypaleblue);
+  text-align: center;
+  padding: 10px;
+}
+.text-information h1 {
+  font-weight: 900;
+}
+.text-parrafo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 40px;
+  font-size: 16px;
+  color: var(--Desaturatedblue);
+}
+.option-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 4);
+  margin: 20px 40px;
+  padding: 25px;
+}
+.option-plan a {
+  color: var(--Brightblue);
+  font-weight: 700;
+}
+.anual-plan {
+  display: flex;
+  align-items: center;
+}
+.anual-plan img {
+  margin-right: 10px;
+}
+.plan p {
+  font-weight: 700;
+}
+.plan p span {
+  color: var(--Desaturatedblue);
+  font-weight: normal;
+  font-size: 14px;
+}
+.btn {
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 10px 75px;
+}
+.btn-fill {
+  display: inline-block;
+  background-color: var(--Brightblue);
+  border-radius: 8px;
+  color: var(--Paleblue);
+  font-weight: 700;
+}
+.btn-outline {
+  color: var(--Darkblue);
+  font-weight: 700;
+}
